@@ -8,7 +8,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # IMPORT VIEWS
-from BinaryImageQNN import views as mainView
+from BinaryConfig import views as mainView
 from users import views as userViews
 
 
