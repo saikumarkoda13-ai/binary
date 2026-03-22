@@ -1,1 +1,1 @@
-web: gunicorn BinaryImageQNN.wsgi:application
+web: gunicorn BinaryConfig.wsgi:application

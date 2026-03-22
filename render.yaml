@@ -3,11 +3,11 @@ services:
     name: binary-image-qnn
     env: python
     buildCommand: ./build.sh
-    startCommand: gunicorn BinaryImageQNN.wsgi:application
+    startCommand: gunicorn BinaryConfig.wsgi:application
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.12
       - key: DJANGO_SETTINGS_MODULE
-        value: BinaryImageQNN.settings
+        value: BinaryConfig.settings
       - key: PYTHONPATH
         value: .
