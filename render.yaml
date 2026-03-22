@@ -9,3 +9,5 @@ services:
         value: 3.10.12
       - key: DJANGO_SETTINGS_MODULE
         value: BinaryImageQNN.settings
+      - key: PYTHONPATH
+        value: .
