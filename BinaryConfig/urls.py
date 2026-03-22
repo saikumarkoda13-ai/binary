@@ -1,5 +1,5 @@
 """
-BinaryImageQNN URL Configuration
+BinaryConfig URL Configuration
 """
 
 from django.contrib import admin

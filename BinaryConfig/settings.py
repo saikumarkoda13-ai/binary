@@ -1,5 +1,5 @@
 """
-Django settings for BinaryImageQNN project.
+Django settings for BinaryConfig project.
 """
 
 import os
